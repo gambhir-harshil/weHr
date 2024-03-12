@@ -1,5 +1,13 @@
+import Dashboard from "./components/Dashboard";
+import Sidebar from "./components/Sidebar/Sidebar";
+
 const App = () => {
-  return <h1 className="text-xl text-red-600">App</h1>;
+  return (
+    <div className="flex h-screen">
+      <Sidebar />
+      <Dashboard />
+    </div>
+  );
 };
 
 export default App;
